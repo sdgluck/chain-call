@@ -1,0 +1,35 @@
+{
+  "name": "chain-call",
+  "version": "0.0.1",
+  "description": "Build a chain of method calls",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard index.js",
+    "test": "node test.js",
+    "prepublish": "npm run -s lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdgluck/chain-call.git"
+  },
+  "author": "Sam Gluck <sdgluck@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdgluck/chain-call/issues"
+  },
+  "keywords": [
+    "chain",
+    "call",
+    "methods",
+    "utility",
+    "function"
+  ],
+  "homepage": "https://github.com/sdgluck/chain-call#readme",
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "tape": "^4.6.2"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
