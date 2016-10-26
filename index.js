@@ -16,7 +16,7 @@ module.exports = function chainCall (obj, calls) {
     const args = isArray ? call[1] : null
 
     if (typeof result[methodName] !== 'function') {
-      throw new Error('make-chain-fn: result[' + methodName + '] is not a function.')
+      throw new Error('chain-call: result[' + methodName + '] is not a function.')
     }
 
     return args ? result[methodName](args) : result[methodName]()
